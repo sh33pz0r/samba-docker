@@ -2,9 +2,7 @@ version: '2'
 
 services:
   samba:
-    build:
-      context: ./samba
-      dockerfile: Dockerfile
+    image: yuri1987/samba-docker
     container_name: samba
     volumes:
     - /media:/yourdir
