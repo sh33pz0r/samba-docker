@@ -1,1 +1,1 @@
-dockerized sambe service for sharing directories
+dockerized samba service for sharing directories
